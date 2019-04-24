@@ -1,9 +1,12 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CarFactory.dir/main.cpp.o"
-  "CMakeFiles/CarFactory.dir/Vehiculo.cpp.o"
-  "CMakeFiles/CarFactory.dir/Proceso.cpp.o"
   "CMakeFiles/CarFactory.dir/Cola.cpp.o"
+  "CMakeFiles/CarFactory.dir/LineaProduccion.cpp.o"
   "CMakeFiles/CarFactory.dir/Lista.cpp.o"
+  "CMakeFiles/CarFactory.dir/main.cpp.o"
+  "CMakeFiles/CarFactory.dir/Proceso.cpp.o"
+  "CMakeFiles/CarFactory.dir/Vehiculo.cpp.o"
+  "CMakeFiles/CarFactory.dir/Programa.cpp.o"
+  "CMakeFiles/CarFactory.dir/Pruebas.cpp.o"
   "CarFactory.pdb"
   "CarFactory"
 )

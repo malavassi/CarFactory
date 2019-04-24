@@ -6,35 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/malavassi/Escritorio/CarFactory/Cola.cpp
-Cola.h
-/home/malavassi/Escritorio/CarFactory/Cola.h
+/home/malavassi/Escritorio/CarFactory/LineaProduccion.cpp
+LineaProduccion.h
+/home/malavassi/Escritorio/CarFactory/LineaProduccion.h
 iostream
 -
 
-/home/malavassi/Escritorio/CarFactory/Cola.h
-Proceso.h
-/home/malavassi/Escritorio/CarFactory/Proceso.h
+/home/malavassi/Escritorio/CarFactory/LineaProduccion.h
+Vehiculo.h
+/home/malavassi/Escritorio/CarFactory/Vehiculo.h
 iostream
 -
 
-/home/malavassi/Escritorio/CarFactory/Proceso.cpp
-Proceso.h
-/home/malavassi/Escritorio/CarFactory/Proceso.h
-
-/home/malavassi/Escritorio/CarFactory/Proceso.h
-string
--
-Vehiculo.h
 /home/malavassi/Escritorio/CarFactory/Vehiculo.h
-
-/home/malavassi/Escritorio/CarFactory/Vehiculo.cpp
-Vehiculo.h
-/home/malavassi/Escritorio/CarFactory/Vehiculo.h
-Proceso.h
-/home/malavassi/Escritorio/CarFactory/Proceso.h
-
-/home/malavassi/Escritorio/CarFactory/Vehiculo.h
-Cola.h
-/home/malavassi/Escritorio/CarFactory/Cola.h
 

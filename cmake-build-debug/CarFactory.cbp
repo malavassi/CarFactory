@@ -34,6 +34,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/malavassi/Escritorio/CarFactory/."/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -57,6 +58,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/malavassi/Escritorio/CarFactory/."/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -90,6 +92,12 @@
 		<Unit filename="/home/malavassi/Escritorio/CarFactory/Cola.h">
 			<Option target="CarFactory"/>
 		</Unit>
+		<Unit filename="/home/malavassi/Escritorio/CarFactory/LineaProduccion.cpp">
+			<Option target="CarFactory"/>
+		</Unit>
+		<Unit filename="/home/malavassi/Escritorio/CarFactory/LineaProduccion.h">
+			<Option target="CarFactory"/>
+		</Unit>
 		<Unit filename="/home/malavassi/Escritorio/CarFactory/Lista.cpp">
 			<Option target="CarFactory"/>
 		</Unit>
@@ -100,6 +108,18 @@
 			<Option target="CarFactory"/>
 		</Unit>
 		<Unit filename="/home/malavassi/Escritorio/CarFactory/Proceso.h">
+			<Option target="CarFactory"/>
+		</Unit>
+		<Unit filename="/home/malavassi/Escritorio/CarFactory/Programa.cpp">
+			<Option target="CarFactory"/>
+		</Unit>
+		<Unit filename="/home/malavassi/Escritorio/CarFactory/Programa.h">
+			<Option target="CarFactory"/>
+		</Unit>
+		<Unit filename="/home/malavassi/Escritorio/CarFactory/Pruebas.cpp">
+			<Option target="CarFactory"/>
+		</Unit>
+		<Unit filename="/home/malavassi/Escritorio/CarFactory/Pruebas.h">
 			<Option target="CarFactory"/>
 		</Unit>
 		<Unit filename="/home/malavassi/Escritorio/CarFactory/Vehiculo.cpp">

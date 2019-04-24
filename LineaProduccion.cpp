@@ -2,40 +2,41 @@
 // Created by malavassi on 20/04/19.
 //
 
-#include "Cola.h"
+#include "LineaProduccion.h"
 using namespace std;
 #include <iostream>
 
-void Cola::encolar(Proceso *process) {
+void LineaProduccion::encolar(Vehiculo *vehicle) {
     if(this->front == NULL){
-        this->front = process;
+        this->front = vehicle;
     }else{
-        (this->rear)->siguiente = process;
+        (this->rear)->siguiente = vehicle;
     }
 
-    this->rear = process;
+    this->rear = vehicle;
 
 }
 
-Proceso Cola::desencolar() {
-    Proceso *aux;
+Vehiculo LineaProduccion::desencolar() {
+    Vehiculo *aux;
     aux = this->front;
     this->front = (this->front)->siguiente;
     return *aux;
 }
 
-void Cola::mostrarCola() {
-    Proceso *aux;
+void LineaProduccion::mostrarLineaProduccion() {
+    Vehiculo *aux;
     aux = this->front;
 
     while(aux!=NULL){
         cout<<"---------------------------------"<<endl;
         cout<<"Tipo: "<<aux->tipo<<endl;
-        cout<<"Tiempo restante: "<<aux->tiempo_restante<<endl;
-        cout<<"Estado: "<<aux->estado<<endl;
         aux = aux->siguiente;
     }
 }
 
-Cola::Cola() {}
+LineaProduccion::LineaProduccion() {
+    this->front = NULL;
+    this->rear = NULL;
+}
 

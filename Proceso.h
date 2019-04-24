@@ -16,8 +16,7 @@ Proceso *siguiente;
 char tipo;
 int tiempo_restante;
 string estado; //estado en el que se encuentra el proceso, hay que analizar si se puede omitir mediante verificaciones con el tiempo restante
-Vehiculo vehiculo; //vehiculo al que pertenece el procesp
-Proceso(char tipo, Vehiculo veh);
+Proceso(char tipo, int tipo_vehiculo);
 
 
 

@@ -150,6 +150,33 @@ Cola.cpp.s:
 	$(MAKE) -f CMakeFiles/CarFactory.dir/build.make CMakeFiles/CarFactory.dir/Cola.cpp.s
 .PHONY : Cola.cpp.s
 
+LineaProduccion.o: LineaProduccion.cpp.o
+
+.PHONY : LineaProduccion.o
+
+# target to build an object file
+LineaProduccion.cpp.o:
+	$(MAKE) -f CMakeFiles/CarFactory.dir/build.make CMakeFiles/CarFactory.dir/LineaProduccion.cpp.o
+.PHONY : LineaProduccion.cpp.o
+
+LineaProduccion.i: LineaProduccion.cpp.i
+
+.PHONY : LineaProduccion.i
+
+# target to preprocess a source file
+LineaProduccion.cpp.i:
+	$(MAKE) -f CMakeFiles/CarFactory.dir/build.make CMakeFiles/CarFactory.dir/LineaProduccion.cpp.i
+.PHONY : LineaProduccion.cpp.i
+
+LineaProduccion.s: LineaProduccion.cpp.s
+
+.PHONY : LineaProduccion.s
+
+# target to generate assembly for a file
+LineaProduccion.cpp.s:
+	$(MAKE) -f CMakeFiles/CarFactory.dir/build.make CMakeFiles/CarFactory.dir/LineaProduccion.cpp.s
+.PHONY : LineaProduccion.cpp.s
+
 Lista.o: Lista.cpp.o
 
 .PHONY : Lista.o
@@ -203,6 +230,60 @@ Proceso.s: Proceso.cpp.s
 Proceso.cpp.s:
 	$(MAKE) -f CMakeFiles/CarFactory.dir/build.make CMakeFiles/CarFactory.dir/Proceso.cpp.s
 .PHONY : Proceso.cpp.s
+
+Programa.o: Programa.cpp.o
+
+.PHONY : Programa.o
+
+# target to build an object file
+Programa.cpp.o:
+	$(MAKE) -f CMakeFiles/CarFactory.dir/build.make CMakeFiles/CarFactory.dir/Programa.cpp.o
+.PHONY : Programa.cpp.o
+
+Programa.i: Programa.cpp.i
+
+.PHONY : Programa.i
+
+# target to preprocess a source file
+Programa.cpp.i:
+	$(MAKE) -f CMakeFiles/CarFactory.dir/build.make CMakeFiles/CarFactory.dir/Programa.cpp.i
+.PHONY : Programa.cpp.i
+
+Programa.s: Programa.cpp.s
+
+.PHONY : Programa.s
+
+# target to generate assembly for a file
+Programa.cpp.s:
+	$(MAKE) -f CMakeFiles/CarFactory.dir/build.make CMakeFiles/CarFactory.dir/Programa.cpp.s
+.PHONY : Programa.cpp.s
+
+Pruebas.o: Pruebas.cpp.o
+
+.PHONY : Pruebas.o
+
+# target to build an object file
+Pruebas.cpp.o:
+	$(MAKE) -f CMakeFiles/CarFactory.dir/build.make CMakeFiles/CarFactory.dir/Pruebas.cpp.o
+.PHONY : Pruebas.cpp.o
+
+Pruebas.i: Pruebas.cpp.i
+
+.PHONY : Pruebas.i
+
+# target to preprocess a source file
+Pruebas.cpp.i:
+	$(MAKE) -f CMakeFiles/CarFactory.dir/build.make CMakeFiles/CarFactory.dir/Pruebas.cpp.i
+.PHONY : Pruebas.cpp.i
+
+Pruebas.s: Pruebas.cpp.s
+
+.PHONY : Pruebas.s
+
+# target to generate assembly for a file
+Pruebas.cpp.s:
+	$(MAKE) -f CMakeFiles/CarFactory.dir/build.make CMakeFiles/CarFactory.dir/Pruebas.cpp.s
+.PHONY : Pruebas.cpp.s
 
 Vehiculo.o: Vehiculo.cpp.o
 
@@ -270,12 +351,21 @@ help:
 	@echo "... Cola.o"
 	@echo "... Cola.i"
 	@echo "... Cola.s"
+	@echo "... LineaProduccion.o"
+	@echo "... LineaProduccion.i"
+	@echo "... LineaProduccion.s"
 	@echo "... Lista.o"
 	@echo "... Lista.i"
 	@echo "... Lista.s"
 	@echo "... Proceso.o"
 	@echo "... Proceso.i"
 	@echo "... Proceso.s"
+	@echo "... Programa.o"
+	@echo "... Programa.i"
+	@echo "... Programa.s"
+	@echo "... Pruebas.o"
+	@echo "... Pruebas.i"
+	@echo "... Pruebas.s"
 	@echo "... Vehiculo.o"
 	@echo "... Vehiculo.i"
 	@echo "... Vehiculo.s"

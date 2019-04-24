@@ -57,48 +57,9 @@ include CMakeFiles/CarFactory.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CarFactory.dir/flags.make
 
-CMakeFiles/CarFactory.dir/main.cpp.o: CMakeFiles/CarFactory.dir/flags.make
-CMakeFiles/CarFactory.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/malavassi/Escritorio/CarFactory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CarFactory.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CarFactory.dir/main.cpp.o -c /home/malavassi/Escritorio/CarFactory/main.cpp
-
-CMakeFiles/CarFactory.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CarFactory.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/malavassi/Escritorio/CarFactory/main.cpp > CMakeFiles/CarFactory.dir/main.cpp.i
-
-CMakeFiles/CarFactory.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CarFactory.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/malavassi/Escritorio/CarFactory/main.cpp -o CMakeFiles/CarFactory.dir/main.cpp.s
-
-CMakeFiles/CarFactory.dir/Vehiculo.cpp.o: CMakeFiles/CarFactory.dir/flags.make
-CMakeFiles/CarFactory.dir/Vehiculo.cpp.o: ../Vehiculo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/malavassi/Escritorio/CarFactory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CarFactory.dir/Vehiculo.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CarFactory.dir/Vehiculo.cpp.o -c /home/malavassi/Escritorio/CarFactory/Vehiculo.cpp
-
-CMakeFiles/CarFactory.dir/Vehiculo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CarFactory.dir/Vehiculo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/malavassi/Escritorio/CarFactory/Vehiculo.cpp > CMakeFiles/CarFactory.dir/Vehiculo.cpp.i
-
-CMakeFiles/CarFactory.dir/Vehiculo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CarFactory.dir/Vehiculo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/malavassi/Escritorio/CarFactory/Vehiculo.cpp -o CMakeFiles/CarFactory.dir/Vehiculo.cpp.s
-
-CMakeFiles/CarFactory.dir/Proceso.cpp.o: CMakeFiles/CarFactory.dir/flags.make
-CMakeFiles/CarFactory.dir/Proceso.cpp.o: ../Proceso.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/malavassi/Escritorio/CarFactory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CarFactory.dir/Proceso.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CarFactory.dir/Proceso.cpp.o -c /home/malavassi/Escritorio/CarFactory/Proceso.cpp
-
-CMakeFiles/CarFactory.dir/Proceso.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CarFactory.dir/Proceso.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/malavassi/Escritorio/CarFactory/Proceso.cpp > CMakeFiles/CarFactory.dir/Proceso.cpp.i
-
-CMakeFiles/CarFactory.dir/Proceso.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CarFactory.dir/Proceso.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/malavassi/Escritorio/CarFactory/Proceso.cpp -o CMakeFiles/CarFactory.dir/Proceso.cpp.s
-
 CMakeFiles/CarFactory.dir/Cola.cpp.o: CMakeFiles/CarFactory.dir/flags.make
 CMakeFiles/CarFactory.dir/Cola.cpp.o: ../Cola.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/malavassi/Escritorio/CarFactory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CarFactory.dir/Cola.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/malavassi/Escritorio/CarFactory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CarFactory.dir/Cola.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CarFactory.dir/Cola.cpp.o -c /home/malavassi/Escritorio/CarFactory/Cola.cpp
 
 CMakeFiles/CarFactory.dir/Cola.cpp.i: cmake_force
@@ -109,9 +70,22 @@ CMakeFiles/CarFactory.dir/Cola.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CarFactory.dir/Cola.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/malavassi/Escritorio/CarFactory/Cola.cpp -o CMakeFiles/CarFactory.dir/Cola.cpp.s
 
+CMakeFiles/CarFactory.dir/LineaProduccion.cpp.o: CMakeFiles/CarFactory.dir/flags.make
+CMakeFiles/CarFactory.dir/LineaProduccion.cpp.o: ../LineaProduccion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/malavassi/Escritorio/CarFactory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CarFactory.dir/LineaProduccion.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CarFactory.dir/LineaProduccion.cpp.o -c /home/malavassi/Escritorio/CarFactory/LineaProduccion.cpp
+
+CMakeFiles/CarFactory.dir/LineaProduccion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CarFactory.dir/LineaProduccion.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/malavassi/Escritorio/CarFactory/LineaProduccion.cpp > CMakeFiles/CarFactory.dir/LineaProduccion.cpp.i
+
+CMakeFiles/CarFactory.dir/LineaProduccion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CarFactory.dir/LineaProduccion.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/malavassi/Escritorio/CarFactory/LineaProduccion.cpp -o CMakeFiles/CarFactory.dir/LineaProduccion.cpp.s
+
 CMakeFiles/CarFactory.dir/Lista.cpp.o: CMakeFiles/CarFactory.dir/flags.make
 CMakeFiles/CarFactory.dir/Lista.cpp.o: ../Lista.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/malavassi/Escritorio/CarFactory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CarFactory.dir/Lista.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/malavassi/Escritorio/CarFactory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CarFactory.dir/Lista.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CarFactory.dir/Lista.cpp.o -c /home/malavassi/Escritorio/CarFactory/Lista.cpp
 
 CMakeFiles/CarFactory.dir/Lista.cpp.i: cmake_force
@@ -122,25 +96,96 @@ CMakeFiles/CarFactory.dir/Lista.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CarFactory.dir/Lista.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/malavassi/Escritorio/CarFactory/Lista.cpp -o CMakeFiles/CarFactory.dir/Lista.cpp.s
 
+CMakeFiles/CarFactory.dir/main.cpp.o: CMakeFiles/CarFactory.dir/flags.make
+CMakeFiles/CarFactory.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/malavassi/Escritorio/CarFactory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CarFactory.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CarFactory.dir/main.cpp.o -c /home/malavassi/Escritorio/CarFactory/main.cpp
+
+CMakeFiles/CarFactory.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CarFactory.dir/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/malavassi/Escritorio/CarFactory/main.cpp > CMakeFiles/CarFactory.dir/main.cpp.i
+
+CMakeFiles/CarFactory.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CarFactory.dir/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/malavassi/Escritorio/CarFactory/main.cpp -o CMakeFiles/CarFactory.dir/main.cpp.s
+
+CMakeFiles/CarFactory.dir/Proceso.cpp.o: CMakeFiles/CarFactory.dir/flags.make
+CMakeFiles/CarFactory.dir/Proceso.cpp.o: ../Proceso.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/malavassi/Escritorio/CarFactory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CarFactory.dir/Proceso.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CarFactory.dir/Proceso.cpp.o -c /home/malavassi/Escritorio/CarFactory/Proceso.cpp
+
+CMakeFiles/CarFactory.dir/Proceso.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CarFactory.dir/Proceso.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/malavassi/Escritorio/CarFactory/Proceso.cpp > CMakeFiles/CarFactory.dir/Proceso.cpp.i
+
+CMakeFiles/CarFactory.dir/Proceso.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CarFactory.dir/Proceso.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/malavassi/Escritorio/CarFactory/Proceso.cpp -o CMakeFiles/CarFactory.dir/Proceso.cpp.s
+
+CMakeFiles/CarFactory.dir/Vehiculo.cpp.o: CMakeFiles/CarFactory.dir/flags.make
+CMakeFiles/CarFactory.dir/Vehiculo.cpp.o: ../Vehiculo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/malavassi/Escritorio/CarFactory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CarFactory.dir/Vehiculo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CarFactory.dir/Vehiculo.cpp.o -c /home/malavassi/Escritorio/CarFactory/Vehiculo.cpp
+
+CMakeFiles/CarFactory.dir/Vehiculo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CarFactory.dir/Vehiculo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/malavassi/Escritorio/CarFactory/Vehiculo.cpp > CMakeFiles/CarFactory.dir/Vehiculo.cpp.i
+
+CMakeFiles/CarFactory.dir/Vehiculo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CarFactory.dir/Vehiculo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/malavassi/Escritorio/CarFactory/Vehiculo.cpp -o CMakeFiles/CarFactory.dir/Vehiculo.cpp.s
+
+CMakeFiles/CarFactory.dir/Programa.cpp.o: CMakeFiles/CarFactory.dir/flags.make
+CMakeFiles/CarFactory.dir/Programa.cpp.o: ../Programa.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/malavassi/Escritorio/CarFactory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CarFactory.dir/Programa.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CarFactory.dir/Programa.cpp.o -c /home/malavassi/Escritorio/CarFactory/Programa.cpp
+
+CMakeFiles/CarFactory.dir/Programa.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CarFactory.dir/Programa.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/malavassi/Escritorio/CarFactory/Programa.cpp > CMakeFiles/CarFactory.dir/Programa.cpp.i
+
+CMakeFiles/CarFactory.dir/Programa.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CarFactory.dir/Programa.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/malavassi/Escritorio/CarFactory/Programa.cpp -o CMakeFiles/CarFactory.dir/Programa.cpp.s
+
+CMakeFiles/CarFactory.dir/Pruebas.cpp.o: CMakeFiles/CarFactory.dir/flags.make
+CMakeFiles/CarFactory.dir/Pruebas.cpp.o: ../Pruebas.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/malavassi/Escritorio/CarFactory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/CarFactory.dir/Pruebas.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CarFactory.dir/Pruebas.cpp.o -c /home/malavassi/Escritorio/CarFactory/Pruebas.cpp
+
+CMakeFiles/CarFactory.dir/Pruebas.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CarFactory.dir/Pruebas.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/malavassi/Escritorio/CarFactory/Pruebas.cpp > CMakeFiles/CarFactory.dir/Pruebas.cpp.i
+
+CMakeFiles/CarFactory.dir/Pruebas.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CarFactory.dir/Pruebas.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/malavassi/Escritorio/CarFactory/Pruebas.cpp -o CMakeFiles/CarFactory.dir/Pruebas.cpp.s
+
 # Object files for target CarFactory
 CarFactory_OBJECTS = \
-"CMakeFiles/CarFactory.dir/main.cpp.o" \
-"CMakeFiles/CarFactory.dir/Vehiculo.cpp.o" \
-"CMakeFiles/CarFactory.dir/Proceso.cpp.o" \
 "CMakeFiles/CarFactory.dir/Cola.cpp.o" \
-"CMakeFiles/CarFactory.dir/Lista.cpp.o"
+"CMakeFiles/CarFactory.dir/LineaProduccion.cpp.o" \
+"CMakeFiles/CarFactory.dir/Lista.cpp.o" \
+"CMakeFiles/CarFactory.dir/main.cpp.o" \
+"CMakeFiles/CarFactory.dir/Proceso.cpp.o" \
+"CMakeFiles/CarFactory.dir/Vehiculo.cpp.o" \
+"CMakeFiles/CarFactory.dir/Programa.cpp.o" \
+"CMakeFiles/CarFactory.dir/Pruebas.cpp.o"
 
 # External object files for target CarFactory
 CarFactory_EXTERNAL_OBJECTS =
 
-CarFactory: CMakeFiles/CarFactory.dir/main.cpp.o
-CarFactory: CMakeFiles/CarFactory.dir/Vehiculo.cpp.o
-CarFactory: CMakeFiles/CarFactory.dir/Proceso.cpp.o
 CarFactory: CMakeFiles/CarFactory.dir/Cola.cpp.o
+CarFactory: CMakeFiles/CarFactory.dir/LineaProduccion.cpp.o
 CarFactory: CMakeFiles/CarFactory.dir/Lista.cpp.o
+CarFactory: CMakeFiles/CarFactory.dir/main.cpp.o
+CarFactory: CMakeFiles/CarFactory.dir/Proceso.cpp.o
+CarFactory: CMakeFiles/CarFactory.dir/Vehiculo.cpp.o
+CarFactory: CMakeFiles/CarFactory.dir/Programa.cpp.o
+CarFactory: CMakeFiles/CarFactory.dir/Pruebas.cpp.o
 CarFactory: CMakeFiles/CarFactory.dir/build.make
 CarFactory: CMakeFiles/CarFactory.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/malavassi/Escritorio/CarFactory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable CarFactory"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/malavassi/Escritorio/CarFactory/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable CarFactory"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CarFactory.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

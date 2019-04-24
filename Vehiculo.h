@@ -6,12 +6,12 @@
 #define CARFACTORY_VEHICULO_H
 
 
-#include "Cola.h"
+
 
 class Vehiculo {
 public:
 int tipo;
-Cola cola_vehiculo;
+Vehiculo *siguiente;
 Vehiculo(int tipo);
 Vehiculo();
 };

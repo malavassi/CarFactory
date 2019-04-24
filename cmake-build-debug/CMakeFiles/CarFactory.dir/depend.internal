@@ -6,18 +6,21 @@ CMakeFiles/CarFactory.dir/Cola.cpp.o
  /home/malavassi/Escritorio/CarFactory/Cola.h
  /home/malavassi/Escritorio/CarFactory/Proceso.h
  /home/malavassi/Escritorio/CarFactory/Vehiculo.h
+CMakeFiles/CarFactory.dir/LineaProduccion.cpp.o
+ /home/malavassi/Escritorio/CarFactory/LineaProduccion.cpp
+ /home/malavassi/Escritorio/CarFactory/LineaProduccion.h
+ /home/malavassi/Escritorio/CarFactory/Vehiculo.h
 CMakeFiles/CarFactory.dir/Lista.cpp.o
  /home/malavassi/Escritorio/CarFactory/Lista.cpp
  /home/malavassi/Escritorio/CarFactory/Lista.h
 CMakeFiles/CarFactory.dir/Proceso.cpp.o
- /home/malavassi/Escritorio/CarFactory/Cola.h
  /home/malavassi/Escritorio/CarFactory/Proceso.cpp
  /home/malavassi/Escritorio/CarFactory/Proceso.h
  /home/malavassi/Escritorio/CarFactory/Vehiculo.h
 CMakeFiles/CarFactory.dir/Vehiculo.cpp.o
- /home/malavassi/Escritorio/CarFactory/Cola.h
- /home/malavassi/Escritorio/CarFactory/Proceso.h
  /home/malavassi/Escritorio/CarFactory/Vehiculo.cpp
  /home/malavassi/Escritorio/CarFactory/Vehiculo.h
 CMakeFiles/CarFactory.dir/main.cpp.o
+ /home/malavassi/Escritorio/CarFactory/LineaProduccion.h
+ /home/malavassi/Escritorio/CarFactory/Vehiculo.h
  /home/malavassi/Escritorio/CarFactory/main.cpp

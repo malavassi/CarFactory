@@ -3,9 +3,7 @@
 //
 
 #include "Proceso.h"
-Proceso::Proceso(char tipo, Vehiculo veh) {
-    this->vehiculo = veh;
-    int tipo_vehiculo = veh.tipo;
+Proceso::Proceso(char tipo, int tipo_vehiculo) {
     this->estado = "Incompleto";
     this->siguiente = NULL;
     this->tipo = tipo;
