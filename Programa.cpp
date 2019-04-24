@@ -4,6 +4,7 @@
 
 #include "Programa.h"
 Programa::Programa(Vehiculo *vehiculo) {
+    this->siguiente = NULL;
     this->vehicle = vehiculo;
     this->programa = new Cola();
     switch(vehiculo->tipo){

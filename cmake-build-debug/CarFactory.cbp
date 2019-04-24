@@ -92,6 +92,12 @@
 		<Unit filename="/home/malavassi/Escritorio/CarFactory/Cola.h">
 			<Option target="CarFactory"/>
 		</Unit>
+		<Unit filename="/home/malavassi/Escritorio/CarFactory/EspacioProduccion.cpp">
+			<Option target="CarFactory"/>
+		</Unit>
+		<Unit filename="/home/malavassi/Escritorio/CarFactory/EspacioProduccion.h">
+			<Option target="CarFactory"/>
+		</Unit>
 		<Unit filename="/home/malavassi/Escritorio/CarFactory/LineaProduccion.cpp">
 			<Option target="CarFactory"/>
 		</Unit>

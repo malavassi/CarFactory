@@ -150,6 +150,33 @@ Cola.cpp.s:
 	$(MAKE) -f CMakeFiles/CarFactory.dir/build.make CMakeFiles/CarFactory.dir/Cola.cpp.s
 .PHONY : Cola.cpp.s
 
+EspacioProduccion.o: EspacioProduccion.cpp.o
+
+.PHONY : EspacioProduccion.o
+
+# target to build an object file
+EspacioProduccion.cpp.o:
+	$(MAKE) -f CMakeFiles/CarFactory.dir/build.make CMakeFiles/CarFactory.dir/EspacioProduccion.cpp.o
+.PHONY : EspacioProduccion.cpp.o
+
+EspacioProduccion.i: EspacioProduccion.cpp.i
+
+.PHONY : EspacioProduccion.i
+
+# target to preprocess a source file
+EspacioProduccion.cpp.i:
+	$(MAKE) -f CMakeFiles/CarFactory.dir/build.make CMakeFiles/CarFactory.dir/EspacioProduccion.cpp.i
+.PHONY : EspacioProduccion.cpp.i
+
+EspacioProduccion.s: EspacioProduccion.cpp.s
+
+.PHONY : EspacioProduccion.s
+
+# target to generate assembly for a file
+EspacioProduccion.cpp.s:
+	$(MAKE) -f CMakeFiles/CarFactory.dir/build.make CMakeFiles/CarFactory.dir/EspacioProduccion.cpp.s
+.PHONY : EspacioProduccion.cpp.s
+
 LineaProduccion.o: LineaProduccion.cpp.o
 
 .PHONY : LineaProduccion.o
@@ -351,6 +378,9 @@ help:
 	@echo "... Cola.o"
 	@echo "... Cola.i"
 	@echo "... Cola.s"
+	@echo "... EspacioProduccion.o"
+	@echo "... EspacioProduccion.i"
+	@echo "... EspacioProduccion.s"
 	@echo "... LineaProduccion.o"
 	@echo "... LineaProduccion.i"
 	@echo "... LineaProduccion.s"

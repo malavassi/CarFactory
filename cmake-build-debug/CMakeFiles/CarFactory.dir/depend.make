@@ -6,8 +6,19 @@ CMakeFiles/CarFactory.dir/Cola.cpp.o: ../Cola.h
 CMakeFiles/CarFactory.dir/Cola.cpp.o: ../Proceso.h
 CMakeFiles/CarFactory.dir/Cola.cpp.o: ../Vehiculo.h
 
+CMakeFiles/CarFactory.dir/EspacioProduccion.cpp.o: ../Cola.h
+CMakeFiles/CarFactory.dir/EspacioProduccion.cpp.o: ../EspacioProduccion.cpp
+CMakeFiles/CarFactory.dir/EspacioProduccion.cpp.o: ../EspacioProduccion.h
+CMakeFiles/CarFactory.dir/EspacioProduccion.cpp.o: ../LineaProduccion.h
+CMakeFiles/CarFactory.dir/EspacioProduccion.cpp.o: ../Proceso.h
+CMakeFiles/CarFactory.dir/EspacioProduccion.cpp.o: ../Programa.h
+CMakeFiles/CarFactory.dir/EspacioProduccion.cpp.o: ../Vehiculo.h
+
+CMakeFiles/CarFactory.dir/LineaProduccion.cpp.o: ../Cola.h
 CMakeFiles/CarFactory.dir/LineaProduccion.cpp.o: ../LineaProduccion.cpp
 CMakeFiles/CarFactory.dir/LineaProduccion.cpp.o: ../LineaProduccion.h
+CMakeFiles/CarFactory.dir/LineaProduccion.cpp.o: ../Proceso.h
+CMakeFiles/CarFactory.dir/LineaProduccion.cpp.o: ../Programa.h
 CMakeFiles/CarFactory.dir/LineaProduccion.cpp.o: ../Vehiculo.h
 
 CMakeFiles/CarFactory.dir/Lista.cpp.o: ../Lista.cpp
@@ -17,10 +28,30 @@ CMakeFiles/CarFactory.dir/Proceso.cpp.o: ../Proceso.cpp
 CMakeFiles/CarFactory.dir/Proceso.cpp.o: ../Proceso.h
 CMakeFiles/CarFactory.dir/Proceso.cpp.o: ../Vehiculo.h
 
+CMakeFiles/CarFactory.dir/Programa.cpp.o: ../Cola.h
+CMakeFiles/CarFactory.dir/Programa.cpp.o: ../Proceso.h
+CMakeFiles/CarFactory.dir/Programa.cpp.o: ../Programa.cpp
+CMakeFiles/CarFactory.dir/Programa.cpp.o: ../Programa.h
+CMakeFiles/CarFactory.dir/Programa.cpp.o: ../Vehiculo.h
+
+CMakeFiles/CarFactory.dir/Pruebas.cpp.o: ../Cola.h
+CMakeFiles/CarFactory.dir/Pruebas.cpp.o: ../EspacioProduccion.h
+CMakeFiles/CarFactory.dir/Pruebas.cpp.o: ../LineaProduccion.h
+CMakeFiles/CarFactory.dir/Pruebas.cpp.o: ../Proceso.h
+CMakeFiles/CarFactory.dir/Pruebas.cpp.o: ../Programa.h
+CMakeFiles/CarFactory.dir/Pruebas.cpp.o: ../Pruebas.cpp
+CMakeFiles/CarFactory.dir/Pruebas.cpp.o: ../Pruebas.h
+CMakeFiles/CarFactory.dir/Pruebas.cpp.o: ../Vehiculo.h
+
 CMakeFiles/CarFactory.dir/Vehiculo.cpp.o: ../Vehiculo.cpp
 CMakeFiles/CarFactory.dir/Vehiculo.cpp.o: ../Vehiculo.h
 
+CMakeFiles/CarFactory.dir/main.cpp.o: ../Cola.h
+CMakeFiles/CarFactory.dir/main.cpp.o: ../EspacioProduccion.h
 CMakeFiles/CarFactory.dir/main.cpp.o: ../LineaProduccion.h
+CMakeFiles/CarFactory.dir/main.cpp.o: ../Proceso.h
+CMakeFiles/CarFactory.dir/main.cpp.o: ../Programa.h
+CMakeFiles/CarFactory.dir/main.cpp.o: ../Pruebas.h
 CMakeFiles/CarFactory.dir/main.cpp.o: ../Vehiculo.h
 CMakeFiles/CarFactory.dir/main.cpp.o: ../main.cpp
 

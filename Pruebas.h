@@ -6,8 +6,14 @@
 #define CARFACTORY_PRUEBAS_H
 
 
-class Pruebas {
+#include "LineaProduccion.h"
+#include "EspacioProduccion.h"
 
+class Pruebas {
+public:
+LineaProduccion crearLinea(int numero, int tipo);
+EspacioProduccion crearEspacio(int a, int b, int c, int d, int e, int f);
+void inicializar(EspacioProduccion espacio, Cola cola_general); //todos los primeros procesos de las colas los manda a la cola general para comenzar el procesamiento
 };
 
 

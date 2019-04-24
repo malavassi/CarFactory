@@ -6,14 +6,16 @@
 #define CARFACTORY_LINEAPRODUCCION_H
 
 
-#include "Vehiculo.h"
+#include "Programa.h"
 #include <iostream>
 using namespace std;
 
 class LineaProduccion {
 public:
-    Vehiculo *front;
-    Vehiculo *rear;
+    Programa *front;
+    Programa *rear;
+    LineaProduccion *siguiente;
+    int nombre;
     /*
 
 
@@ -28,11 +30,11 @@ public:
 
 
 */
-    void encolar(Vehiculo *vehicle);
-    Vehiculo desencolar();
+    void encolar(Programa *vehicle);
+    Programa desencolar();
     void mostrarLineaProduccion();
     void vaciarLineaProduccion();
-    LineaProduccion();
+    LineaProduccion(int nombre);
 };
 
 

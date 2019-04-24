@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/malavassi/Escritorio/CarFactory/Cola.cpp" "/home/malavassi/Escritorio/CarFactory/cmake-build-debug/CMakeFiles/CarFactory.dir/Cola.cpp.o"
+  "/home/malavassi/Escritorio/CarFactory/EspacioProduccion.cpp" "/home/malavassi/Escritorio/CarFactory/cmake-build-debug/CMakeFiles/CarFactory.dir/EspacioProduccion.cpp.o"
   "/home/malavassi/Escritorio/CarFactory/LineaProduccion.cpp" "/home/malavassi/Escritorio/CarFactory/cmake-build-debug/CMakeFiles/CarFactory.dir/LineaProduccion.cpp.o"
   "/home/malavassi/Escritorio/CarFactory/Lista.cpp" "/home/malavassi/Escritorio/CarFactory/cmake-build-debug/CMakeFiles/CarFactory.dir/Lista.cpp.o"
   "/home/malavassi/Escritorio/CarFactory/Proceso.cpp" "/home/malavassi/Escritorio/CarFactory/cmake-build-debug/CMakeFiles/CarFactory.dir/Proceso.cpp.o"

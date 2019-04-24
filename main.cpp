@@ -1,11 +1,13 @@
 #include <iostream>
 #include "LineaProduccion.h"
+#include "Pruebas.h"
+#include "Cola.h"
 
 using namespace std;
 int main() {
-    Vehiculo* uno = new Vehiculo(3);
-    LineaProduccion a;
-    a.encolar(uno);
-    a.mostrarLineaProduccion();
+   Pruebas *a = new Pruebas();
+   Cola b;
+    a->inicializar(a->crearEspacio(1,1,1,1,1,1),b);
+    b.mostrarCola();
     return 0;
 }

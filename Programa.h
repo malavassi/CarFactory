@@ -13,6 +13,7 @@ public:
     Cola *programa;
     Vehiculo *vehicle;
     Programa(Vehiculo *vehiculo);
+    Programa *siguiente;
 };
 
 
