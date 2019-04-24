@@ -37,3 +37,5 @@ void Cola::mostrarCola() {
     }
 }
 
+Cola::Cola() {}
+

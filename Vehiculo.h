@@ -6,9 +6,14 @@
 #define CARFACTORY_VEHICULO_H
 
 
-class Vehiculo {
-int tipo;
+#include "Cola.h"
 
+class Vehiculo {
+public:
+int tipo;
+Cola cola_vehiculo;
+Vehiculo(int tipo);
+Vehiculo();
 };
 
 

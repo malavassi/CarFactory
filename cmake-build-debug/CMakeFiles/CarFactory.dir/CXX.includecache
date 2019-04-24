@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/malavassi/Escritorio/CarFactory/Cola.cpp
+Cola.h
+/home/malavassi/Escritorio/CarFactory/Cola.h
+iostream
+-
+
+/home/malavassi/Escritorio/CarFactory/Cola.h
+Proceso.h
+/home/malavassi/Escritorio/CarFactory/Proceso.h
+iostream
+-
+
+/home/malavassi/Escritorio/CarFactory/Proceso.cpp
+Proceso.h
+/home/malavassi/Escritorio/CarFactory/Proceso.h
+
+/home/malavassi/Escritorio/CarFactory/Proceso.h
+string
+-
+Vehiculo.h
+/home/malavassi/Escritorio/CarFactory/Vehiculo.h
+
+/home/malavassi/Escritorio/CarFactory/Vehiculo.cpp
+Vehiculo.h
+/home/malavassi/Escritorio/CarFactory/Vehiculo.h
+Proceso.h
+/home/malavassi/Escritorio/CarFactory/Proceso.h
+
+/home/malavassi/Escritorio/CarFactory/Vehiculo.h
+Cola.h
+/home/malavassi/Escritorio/CarFactory/Cola.h
+

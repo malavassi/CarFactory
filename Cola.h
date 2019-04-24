@@ -14,6 +14,9 @@ class Cola {
 public:
     Proceso *front;
     Proceso *rear;
+    /*
+
+
     static Cola* unique_instance;
 
     static Cola *getInstance(){
@@ -23,10 +26,13 @@ public:
         return unique_instance;
     };
 
+
+*/
     void encolar(Proceso *process);
     Proceso desencolar();
     void mostrarCola();
     void vaciarCola();
+    Cola();
 };
 
 
