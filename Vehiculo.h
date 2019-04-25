@@ -12,8 +12,9 @@ class Vehiculo {
 public:
     Cola *programa;
     Vehiculo(int tipo);
+    Vehiculo(int tipo, int id);
     Vehiculo *siguiente;
-    string id;
+    int id;
     int tipo;
 };
 
