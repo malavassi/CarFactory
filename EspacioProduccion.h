@@ -13,6 +13,8 @@ public:
     LineaProduccion *front;
     LineaProduccion *rear;
 
+    int idVehiculo;
+
     void encolar(LineaProduccion *vehicle);
     LineaProduccion desencolar();
     void mostrarEspacioProduccion();

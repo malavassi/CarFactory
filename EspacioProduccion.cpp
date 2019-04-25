@@ -38,4 +38,5 @@ void EspacioProduccion::mostrarEspacioProduccion() {
 EspacioProduccion::EspacioProduccion() {
     this->front = NULL;
     this->rear = NULL;
+    this->idVehiculo = -1;
  }

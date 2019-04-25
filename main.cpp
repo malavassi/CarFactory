@@ -25,7 +25,7 @@ int main() {
     cola_general.encolar(linea_5.front->programa->front);
     cola_general.encolar(linea_6.front->programa->front);
 
-    cola_general.mostrarCola();
+    //cola_general.mostrarCola();
     cola_general.size();
 
 

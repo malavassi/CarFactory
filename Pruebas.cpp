@@ -9,7 +9,8 @@ LineaProduccion Pruebas::crearLinea(int numero, int tipo) {
     LineaProduccion *nueva_linea = new LineaProduccion(tipo);
     int contador = 0;
     while(contador < numero){
-        nueva_linea->encolar(new Vehiculo(tipo));
+        idVehiculo+=1;
+        nueva_linea->encolar(new Vehiculo(tipo,idVehiculo));
         contador += 1;
     }
     nueva_linea->mostrarLineaProduccion();
@@ -46,6 +47,10 @@ void Pruebas::inicializar(EspacioProduccion espacio, Cola cola_general) {
         linea_aux = linea_aux->siguiente;
         contador +=1;
     }
+}
+
+Pruebas::Pruebas() {
+    idVehiculo = -1;
 }
 
 
