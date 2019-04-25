@@ -7,6 +7,7 @@ using namespace std;
 #include <iostream>
 
 void Cola::encolar(Proceso *process) {
+    process->siguiente = NULL;
     if(this->front == NULL){
         this->front = process;
     }else{

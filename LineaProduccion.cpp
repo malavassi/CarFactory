@@ -3,12 +3,12 @@
 //
 
 #include "LineaProduccion.h"
-#include "Programa.h"
+#include "Vehiculo.h"
 
 using namespace std;
 #include <iostream>
 
-void LineaProduccion::encolar(Programa *vehicle) {
+void LineaProduccion::encolar(Vehiculo *vehicle) {
     if(this->front == NULL){
         this->front = vehicle;
     }else{
@@ -19,20 +19,20 @@ void LineaProduccion::encolar(Programa *vehicle) {
 
 }
 
-Programa LineaProduccion::desencolar() {
-    Programa *aux;
+Vehiculo LineaProduccion::desencolar() {
+    Vehiculo *aux;
     aux = this->front;
     this->front = (this->front)->siguiente;
     return *aux;
 }
 
 void LineaProduccion::mostrarLineaProduccion() {
-    Programa *aux;
+    Vehiculo *aux;
     aux = this->front;
     cout<<"Mostrando linea de produccion"<<endl;
     while(aux!=NULL){
         cout<<"---------------------------------"<<endl;
-        cout<<"Tipo: "<<aux->vehicle->tipo<<endl;
+        cout<<"Tipo: "<<aux->tipo<<endl;
         aux = aux->siguiente;
     }
     cout<<"---------------------------------"<<endl<<"---------------------------------"<<endl;

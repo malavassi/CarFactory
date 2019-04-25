@@ -9,7 +9,7 @@ LineaProduccion Pruebas::crearLinea(int numero, int tipo) {
     LineaProduccion *nueva_linea = new LineaProduccion(tipo);
     int contador = 0;
     while(contador < numero){
-        nueva_linea->encolar(new Programa(new Vehiculo(tipo)));
+        nueva_linea->encolar(new Vehiculo(tipo));
         contador += 1;
     }
     nueva_linea->mostrarLineaProduccion();
@@ -36,7 +36,6 @@ EspacioProduccion Pruebas::crearEspacio(int a, int b, int c, int d, int e, int f
 
 void Pruebas::inicializar(EspacioProduccion espacio, Cola cola_general) {
     LineaProduccion *linea_aux = espacio.front;
-    Programa *programa_aux;
     int contador = 0;
     while(contador < 6){
         if(linea_aux->front->programa->front != NULL){

@@ -15,5 +15,4 @@ add_executable(CarFactory
         main.cpp
         Proceso.cpp
         Proceso.h
-        Vehiculo.cpp
-        Vehiculo.h Programa.cpp Programa.h Pruebas.cpp Pruebas.h EspacioProduccion.cpp EspacioProduccion.h)
+        Vehiculo.cpp Vehiculo.h Pruebas.cpp Pruebas.h EspacioProduccion.cpp EspacioProduccion.h)

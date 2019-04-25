@@ -6,7 +6,6 @@
 #define CARFACTORY_PROCESO_H
 
 #include <string>
-#include "Vehiculo.h"
 
 using namespace std;
 
@@ -15,6 +14,7 @@ public:
 Proceso *siguiente;
 char tipo;
 int tiempo_restante;
+string id_vehiculo;
 string estado; //estado en el que se encuentra el proceso, hay que analizar si se puede omitir mediante verificaciones con el tiempo restante
 Proceso(char tipo, int tipo_vehiculo);
 

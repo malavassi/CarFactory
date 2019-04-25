@@ -258,33 +258,6 @@ Proceso.cpp.s:
 	$(MAKE) -f CMakeFiles/CarFactory.dir/build.make CMakeFiles/CarFactory.dir/Proceso.cpp.s
 .PHONY : Proceso.cpp.s
 
-Programa.o: Programa.cpp.o
-
-.PHONY : Programa.o
-
-# target to build an object file
-Programa.cpp.o:
-	$(MAKE) -f CMakeFiles/CarFactory.dir/build.make CMakeFiles/CarFactory.dir/Programa.cpp.o
-.PHONY : Programa.cpp.o
-
-Programa.i: Programa.cpp.i
-
-.PHONY : Programa.i
-
-# target to preprocess a source file
-Programa.cpp.i:
-	$(MAKE) -f CMakeFiles/CarFactory.dir/build.make CMakeFiles/CarFactory.dir/Programa.cpp.i
-.PHONY : Programa.cpp.i
-
-Programa.s: Programa.cpp.s
-
-.PHONY : Programa.s
-
-# target to generate assembly for a file
-Programa.cpp.s:
-	$(MAKE) -f CMakeFiles/CarFactory.dir/build.make CMakeFiles/CarFactory.dir/Programa.cpp.s
-.PHONY : Programa.cpp.s
-
 Pruebas.o: Pruebas.cpp.o
 
 .PHONY : Pruebas.o
@@ -390,9 +363,6 @@ help:
 	@echo "... Proceso.o"
 	@echo "... Proceso.i"
 	@echo "... Proceso.s"
-	@echo "... Programa.o"
-	@echo "... Programa.i"
-	@echo "... Programa.s"
 	@echo "... Pruebas.o"
 	@echo "... Pruebas.i"
 	@echo "... Pruebas.s"

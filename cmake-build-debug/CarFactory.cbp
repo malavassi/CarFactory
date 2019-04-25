@@ -116,12 +116,6 @@
 		<Unit filename="/home/malavassi/Escritorio/CarFactory/Proceso.h">
 			<Option target="CarFactory"/>
 		</Unit>
-		<Unit filename="/home/malavassi/Escritorio/CarFactory/Programa.cpp">
-			<Option target="CarFactory"/>
-		</Unit>
-		<Unit filename="/home/malavassi/Escritorio/CarFactory/Programa.h">
-			<Option target="CarFactory"/>
-		</Unit>
 		<Unit filename="/home/malavassi/Escritorio/CarFactory/Pruebas.cpp">
 			<Option target="CarFactory"/>
 		</Unit>
