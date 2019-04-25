@@ -35,6 +35,7 @@ public:
     Proceso retornarMayorTiempo(); //solo funciona para las agendas de procesos, que tienen un tamano de 3 procesos; de no cumplir lo anterior dara error
     Cola();
     int size();
+    void verificarCompletados(Cola cola);
 };
 
 

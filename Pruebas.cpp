@@ -39,5 +39,29 @@ Pruebas::Pruebas() {
     idVehiculo = -1;
 }
 
+void Pruebas::distribuirProceso(Cola a, Cola b, Cola c, Cola d, Cola e, Cola f, Proceso p) {
+    char tipo = p.tipo;
+    switch(tipo){
+        case 'A':
+            a.encolar(&p);
+            break;
+        case 'B':
+            b.encolar(&p);
+            break;
+        case 'C':
+            c.encolar(&p);
+            break;
+        case 'D':
+            d.encolar(&p);
+            break;
+        case 'E':
+            e.encolar(&p);
+            break;
+        case 'F':
+            f.encolar(&p);
+            break;
+    }
+}
+
 
 

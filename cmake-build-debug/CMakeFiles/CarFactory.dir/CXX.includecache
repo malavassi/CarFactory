@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/home/malavassi/Escritorio/CarFactory/Cola.cpp
+Cola.h
+/home/malavassi/Escritorio/CarFactory/Cola.h
+iostream
+-
+
 /home/malavassi/Escritorio/CarFactory/Cola.h
 Proceso.h
 /home/malavassi/Escritorio/CarFactory/Proceso.h
@@ -41,6 +47,16 @@ EspacioProduccion.h
 /home/malavassi/Escritorio/CarFactory/EspacioProduccion.h
 
 /home/malavassi/Escritorio/CarFactory/Vehiculo.h
+Cola.h
+/home/malavassi/Escritorio/CarFactory/Cola.h
+
+/home/malavassi/Escritorio/CarFactory/main.cpp
+iostream
+-
+LineaProduccion.h
+/home/malavassi/Escritorio/CarFactory/LineaProduccion.h
+Pruebas.h
+/home/malavassi/Escritorio/CarFactory/Pruebas.h
 Cola.h
 /home/malavassi/Escritorio/CarFactory/Cola.h
 

@@ -19,7 +19,11 @@ public:
     LineaProduccion crearLinea(int numero, int tipo);
 EspacioProduccion crearEspacio(int a, int b, int c, int d, int e, int f);
 void enviarACola(EspacioProduccion espacio, Cola *cola_general); //todos los primeros procesos de las colas los manda a la cola general para comenzar el procesamiento
+void inicializar(EspacioProduccion espacio, Cola cola_general); //todos los primeros procesos de las colas los manda a la cola general para comenzar el procesamiento
+void distribuirProceso(Cola a, Cola b, Cola c, Cola d, Cola e, Cola f, Proceso p);
 };
+
+
 
 
 #endif //CARFACTORY_PRUEBAS_H

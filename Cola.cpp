@@ -113,3 +113,39 @@ void Cola::vaciarCola() {
     this->rear = NULL;
 }
 
+void Cola::verificarCompletados(Cola cola) {
+    Proceso *aux1 = this->front;
+    Proceso *aux2 = this->rear;
+    Proceso *aux3 = this->front->siguiente;
+    if (cola.front->tiempo_restante == 0) {
+        cola.desencolar();
+        if (cola.front->tiempo_restante == 0) {
+            cola.desencolar();
+            if (cola.front->tiempo_restante == 0) {
+                cola.desencolar();
+            } else {
+                if (cola.rear->tiempo_restante == 0) {
+                    cola.vaciarCola();
+                    cola.encolar(aux3);
+                }
+            }
+        }
+    } else {
+        if (cola.front->siguiente->tiempo_restante == 0) {
+            cola.vaciarCola();
+            cola.encolar(aux1);
+            cola.encolar(aux2);
+            if (cola.rear->tiempo_restante == 0) {
+                cola.vaciarCola();
+                cola.encolar(aux1);
+            }
+        } else {
+            if (cola.rear->tiempo_restante == 0) {
+                cola.vaciarCola();
+                cola.encolar(aux1);
+                cola.encolar(aux3);
+            }
+        }
+    }
+}
+
