@@ -12,6 +12,7 @@ class EspacioProduccion {
 public:
     LineaProduccion *front;
     LineaProduccion *rear;
+    int contadorLineas;
 
     int idVehiculo;
 

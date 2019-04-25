@@ -12,6 +12,7 @@ using namespace std;
 
 class LineaProduccion {
 public:
+    int cantidadVehiculosLinea;
     Vehiculo *front;
     Vehiculo *rear;
     LineaProduccion *siguiente;

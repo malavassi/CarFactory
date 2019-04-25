@@ -8,8 +8,10 @@
 void EspacioProduccion::encolar(LineaProduccion *vehicle) {
     if(this->front == NULL){
         this->front = vehicle;
+        this->contadorLineas += 1;
     }else{
         (this->rear)->siguiente = vehicle;
+        this->contadorLineas += 1;
     }
 
     this->rear = vehicle;
@@ -20,6 +22,7 @@ LineaProduccion EspacioProduccion::desencolar() {
     LineaProduccion *aux;
     aux = this->front;
     this->front = (this->front)->siguiente;
+    this->contadorLineas -=1;
     return *aux;
 }
 
@@ -39,4 +42,5 @@ EspacioProduccion::EspacioProduccion() {
     this->front = NULL;
     this->rear = NULL;
     this->idVehiculo = -1;
+    this->contadorLineas = 0;
  }

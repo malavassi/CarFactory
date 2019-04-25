@@ -11,8 +11,10 @@ using namespace std;
 void LineaProduccion::encolar(Vehiculo *vehicle) {
     if(this->front == NULL){
         this->front = vehicle;
+        this->cantidadVehiculosLinea +=1;
     }else{
         (this->rear)->siguiente = vehicle;
+        this->cantidadVehiculosLinea +=1;
     }
 
     this->rear = vehicle;
@@ -23,6 +25,7 @@ Vehiculo LineaProduccion::desencolar() {
     Vehiculo *aux;
     aux = this->front;
     this->front = (this->front)->siguiente;
+    cantidadVehiculosLinea -= 1;
     return *aux;
 }
 
@@ -43,5 +46,6 @@ LineaProduccion::LineaProduccion(int nombre) {
     this->rear = NULL;
     this->siguiente = NULL;
     this->nombre = nombre;
+    this->cantidadVehiculosLinea = 0;
 }
 

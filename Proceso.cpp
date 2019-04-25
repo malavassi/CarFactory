@@ -11,10 +11,11 @@ Proceso::Proceso() {
 
 Proceso::Proceso(char tipo, int tipo_vehiculo, int id) {
     this->id_vehiculo = id;
-    this->estado = "Incompleto";
+    this->estado = 1;
     this->siguiente = NULL;
     this->tipo = tipo;
     this->tiempo_restante = NULL;
+    this->tipo_vehiculo = tipo_vehiculo;
 
     switch (tipo_vehiculo) {
         case 1:
@@ -156,11 +157,11 @@ Proceso::Proceso(char tipo, int tipo_vehiculo, int id) {
 }
 
 Proceso::Proceso(char tipo, int tipo_vehiculo) {
-    this->estado = "Incompleto";
+    this->estado = 1;
     this->siguiente = NULL;
     this->tipo = tipo;
     this->tiempo_restante = NULL;
-
+    this->tipo_vehiculo = tipo_vehiculo;
     switch (tipo_vehiculo) {
         case 1:
             switch (tipo) {
