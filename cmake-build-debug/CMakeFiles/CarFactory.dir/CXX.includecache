@@ -12,13 +12,33 @@ Proceso.h
 iostream
 -
 
+/home/malavassi/Escritorio/CarFactory/EspacioProduccion.h
+iostream
+-
+LineaProduccion.h
+/home/malavassi/Escritorio/CarFactory/LineaProduccion.h
+
+/home/malavassi/Escritorio/CarFactory/LineaProduccion.h
+Vehiculo.h
+/home/malavassi/Escritorio/CarFactory/Vehiculo.h
+iostream
+-
+
 /home/malavassi/Escritorio/CarFactory/Proceso.h
 string
 -
 
-/home/malavassi/Escritorio/CarFactory/Vehiculo.cpp
-Vehiculo.h
-/home/malavassi/Escritorio/CarFactory/Vehiculo.h
+/home/malavassi/Escritorio/CarFactory/Pruebas.cpp
+Pruebas.h
+/home/malavassi/Escritorio/CarFactory/Pruebas.h
+LineaProduccion.h
+/home/malavassi/Escritorio/CarFactory/LineaProduccion.h
+
+/home/malavassi/Escritorio/CarFactory/Pruebas.h
+LineaProduccion.h
+/home/malavassi/Escritorio/CarFactory/LineaProduccion.h
+EspacioProduccion.h
+/home/malavassi/Escritorio/CarFactory/EspacioProduccion.h
 
 /home/malavassi/Escritorio/CarFactory/Vehiculo.h
 Cola.h

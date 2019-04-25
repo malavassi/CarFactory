@@ -6,10 +6,12 @@
 using namespace std;
 int main() {
    Pruebas *a = new Pruebas();
-    /*Cola b;
+   /*Cola b;
     a->inicializar(a->crearEspacio(1,1,1,1,1,1),b);
-    b.mostrarCola();*/
+    b.mostrarCola();
+    */
     //-----------------------------------------------------------
+
     Cola cola_general;
     LineaProduccion linea_1 = a->crearLinea(1,1);
     LineaProduccion linea_2 = a->crearLinea(1,2);
@@ -25,8 +27,8 @@ int main() {
     cola_general.encolar(linea_5.front->programa->front);
     cola_general.encolar(linea_6.front->programa->front);
 
-    //cola_general.mostrarCola();
-    cola_general.size();
+    cola_general.mostrarCola();
+    cola_general.size(); 
 
 
 
